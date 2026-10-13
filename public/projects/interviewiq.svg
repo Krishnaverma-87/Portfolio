@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iqBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#1A153A" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#iqBg)" />
+  
+  <!-- Window Frame -->
+  <rect x="40" y="30" width="720" height="440" rx="14" fill="#0F172A" stroke="#334155" stroke-width="1.5" />
+  
+  <!-- Header bar -->
+  <path d="M40 30 h720 v45 h-720 z" fill="#1E293B" rx="14" />
+  <circle cx="65" cy="52" r="5" fill="#EF4444" />
+  <circle cx="82" cy="52" r="5" fill="#F59E0B" />
+  <circle cx="99" cy="52" r="5" fill="#10B981" />
+  <text x="130" y="56" fill="#94A3B8" font-family="monospace" font-size="13">interview-iq-ai // simulator.streamlit.app</text>
+  <rect x="620" y="42" width="120" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1" />
+  <text x="680" y="57" fill="#C4B5FD" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">✦ Gemini 1.5 Pro</text>
+
+  <!-- Left Sidebar Controls -->
+  <rect x="60" y="95" width="230" height="350" rx="10" fill="#1E293B" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+  <text x="75" y="125" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">Interview Setup</text>
+
+  <!-- Job Role Option -->
+  <text x="75" y="160" fill="#94A3B8" font-family="sans-serif" font-size="11">TARGET ROLE</text>
+  <rect x="75" y="170" width="200" height="34" rx="6" fill="#0F172A" stroke="#6366F1" stroke-width="1.5" />
+  <text x="88" y="192" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="600">AI / ML Engineer ▾</text>
+
+  <!-- Difficulty Option -->
+  <text x="75" y="230" fill="#94A3B8" font-family="sans-serif" font-size="11">DIFFICULTY LEVEL</text>
+  <g transform="translate(75, 240)">
+    <rect x="0" y="0" width="62" height="26" rx="4" fill="#0F172A" stroke="#475569" stroke-width="1" />
+    <text x="31" y="17" fill="#94A3B8" font-family="sans-serif" font-size="10" text-anchor="middle">Beginner</text>
+    <rect x="68" y="0" width="66" height="26" rx="4" fill="#8B5CF6" fill-opacity="0.3" stroke="#8B5CF6" stroke-width="1.5" />
+    <text x="101" y="17" fill="#E2E8F0" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">Intermed</text>
+    <rect x="140" y="0" width="60" height="26" rx="4" fill="#0F172A" stroke="#475569" stroke-width="1" />
+    <text x="170" y="17" fill="#94A3B8" font-family="sans-serif" font-size="10" text-anchor="middle">Advanced</text>
+  </g>
+
+  <!-- Type & Duration -->
+  <text x="75" y="295" fill="#94A3B8" font-family="sans-serif" font-size="11">TYPE & DURATION</text>
+  <rect x="75" y="305" width="95" height="28" rx="5" fill="#0F172A" stroke="#38BDF8" stroke-width="1" />
+  <text x="122" y="323" fill="#38BDF8" font-family="sans-serif" font-size="11" text-anchor="middle">Technical</text>
+  <rect x="180" y="305" width="95" height="28" rx="5" fill="#0F172A" stroke="#475569" stroke-width="1" />
+  <text x="227" y="323" fill="#94A3B8" font-family="sans-serif" font-size="11" text-anchor="middle">30 Mins</text>
+
+  <!-- Start Button -->
+  <rect x="75" y="375" width="200" height="38" rx="8" fill="url(#purpleGrad)" />
+  <text x="175" y="399" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Start AI Session →</text>
+
+  <!-- Main Simulator Area -->
+  <rect x="310" y="95" width="430" height="350" rx="10" fill="#131D31" stroke="#334155" stroke-width="1" />
+  
+  <!-- AI Question Card -->
+  <rect x="330" y="115" width="390" height="110" rx="8" fill="#1E293B" stroke="#6366F1" stroke-width="1" />
+  <text x="350" y="142" fill="#818CF8" font-family="sans-serif" font-size="11" font-weight="700">QUESTION 3 OF 5 • TECHNICAL</text>
+  <text x="350" y="170" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="500">"Explain how backpropagation computes gradients in</text>
+  <text x="350" y="190" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="500">a multilayer perceptron and how it avoids vanishing gradients."</text>
+  
+  <!-- Student Answer Mockup -->
+  <rect x="330" y="240" width="390" height="120" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+  <text x="350" y="265" fill="#94A3B8" font-family="sans-serif" font-size="11">YOUR RECORDED / WRITTEN RESPONSE</text>
+  <text x="350" y="295" fill="#CBD5E1" font-family="monospace" font-size="11">Using chain rule to propagate error backwards from output...</text>
+  
+  <!-- Real-time Evaluation Bar -->
+  <rect x="330" y="375" width="390" height="52" rx="8" fill="#1E293B" stroke="#10B981" stroke-width="1" />
+  <text x="350" y="396" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="700">AI FEEDBACK & METRICS</text>
+  <text x="350" y="415" fill="#E2E8F0" font-family="sans-serif" font-size="11">Clarity: 92% | Conceptual Accuracy: 88% | Confidence: High</text>
+</svg>
